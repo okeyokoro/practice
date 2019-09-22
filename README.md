@@ -14,6 +14,19 @@ encountered as he travelled the internet in search of:
 
 ...and other things of a similar nature.
 
+## Getting Up & Running
+
+```bash
+git clone git@github.com:okeyokoro/competitive-programming-adventures.git
+
+cd competitive-programming-adventures
+
+pip install jupterlab
+# ^ if not installed already
+
+jupyter lab
+```
+
 ## The Usual Suspects
 
 - [EPI](books/elements-of-programming-interviews)
