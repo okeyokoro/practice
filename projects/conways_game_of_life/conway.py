@@ -27,7 +27,7 @@ def get_live_neighbors(board, row, col):
                        ( 0, -1),          ( 0, 1),    # same row
                        (-1, -1), (-1, 0), (-1, 1),]:  # down row
         try:
-            if board[row+xrow][col+xcol]:
+            if row+xrow > 0 and col+xcol > 0 and board[row+xrow][col+xcol]:
                 ans += 1
         except IndexError:
             pass
