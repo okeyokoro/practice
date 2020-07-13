@@ -44,8 +44,6 @@ def transition(board):
 
             if element and live_neighbors < 2:
                 xboard[i][j] = 0
-            elif element and 2 <= live_neighbors <= 3:
-                xboard[i][j] = 1
             elif element and live_neighbors > 3:
                 xboard[i][j] = 0
             elif not element and live_neighbors == 3:
