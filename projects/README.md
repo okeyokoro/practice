@@ -1,7 +1,10 @@
+### PROJECTS
 
+- [x] conway's game of life
+- [x] minimax tictactoe AI
 
-Build a Sudoku Solver!
+### TODO
 
-- in python
-- in Prolog !
-
+- [ ] Build a Sudoku Solver!
+  - [ ] in python
+  - [ ] in Prolog !
