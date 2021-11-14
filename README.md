@@ -1,5 +1,4 @@
 
-- algorithms
-- data structures
-- coding challenges
-- weekend projects
+Just some code i wrote for practice
+
+
